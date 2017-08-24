@@ -20,7 +20,7 @@ server {
      listen 1738;
 
 	
-    server_name *.afrtv.net;
+    server_name on.afrtv.net live.afrtv.net, tv.afrtv.net;
 
     location / {
 	proxy_buffers 16 4k;
